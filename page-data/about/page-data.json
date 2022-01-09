@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-about-js",
+    "path": "/about/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"YumYum Yummy Coding!","description":"얌얌냥이 개발 기록","language":"ko","author":{"name":"곽혜원","bio":{"role":"개발자","description":["지속적인 성장을 추구하는",""],"thumbnail":"surfer.jpg"},"social":{"github":"https://github.com/YumYumNyang","linkedIn":"","email":"khw121699@gmail.com"}},"about":{"timestamps":[{"date":"","activity":"","links":{"post":"","github":"","demo":"","googlePlay":"","appStore":""}}],"projects":[{"title":"","description":"","techStack":["",""],"thumbnailUrl":"","links":{"post":"","github":"","demo":"","googlePlay":"","appStore":""}}]}}}},"pageContext":{}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437","3350743975"]}
