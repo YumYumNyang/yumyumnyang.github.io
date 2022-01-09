@@ -14,7 +14,7 @@ module.exports = {
     name: `곽혜원`,
     bio: {
       role: `개발자`,
-      description: ['지속적인 성장을 추구하는', ''],
+      description: ['지속적인 성장을 추구하는', '새로운 도전을 멈추지 않는'],
       thumbnail: 'surfer.jpg', // Path to the image in the 'asset' folder
     },
     social: {
