@@ -6,7 +6,7 @@ module.exports = {
   ogImage: `/Devlog.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `YumYumNyang/YumYumNyang.github.io`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
