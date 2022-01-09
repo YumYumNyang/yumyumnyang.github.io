@@ -1,16 +1,88 @@
 module.exports = {
-  title: `Hyewon Kwak(yumyumnyang) tech blog`,
-  description: `얌얌냥이의 기술 블로그`,
-  siteURL: `https://yumyumnyang.github.io/`, // blog site URL
-  author: {
-    name: `곽혜원`,
-    description: `지속적인 성장을 추구하는 개발자`,
-    sns: {
-      github: `https://github.com/YumYumNyang`,
-      email: `khw121699@gmail.com`
+  title: `YumYum Yummy Coding!`,
+  description: `얌얌냥이 개발 기록`,
+  language: `ko`, // `ko`, `en` => currently support versions for Korean and English
+  siteUrl: `https://yumyumnyang.github.io/`,
+  ogImage: `/Devlog.png`, // Path to your in the 'static' folder
+  comments: {
+    utterances: {
+      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  icon: ``,
-  keywords: [`blog`, `얌얌냥이`, `블로그`]
-  // 나중에 추가해야할 것 : utterance, google analytics와 다른 세부 설정들(이미지, 프로젝트 페이지 등)
-}
+  ga: '0', // Google Analytics Tracking ID
+  author: {
+    name: `곽혜원`,
+    bio: {
+      role: `개발자`,
+      description: ['지속적인 성장을 추구하는', ''],
+      thumbnail: 'surfer.jpg', // Path to the image in the 'asset' folder
+    },
+    social: {
+      github: `https://github.com/YumYumNyang`,
+      linkedIn: ``,
+      email: `khw121699@gmail.com`,
+    },
+  },
+
+  // metadata for About Page
+  about: {
+    timestamps: [
+      // =====       [Timestamp Sample and Structure]      =====
+      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
+      {
+        date: '',
+        activity: '',
+        links: {
+          github: '',
+          post: '',
+          googlePlay: '',
+          appStore: '',
+          demo: '',
+        },
+      },
+      // ========================================================
+      // ========================================================
+      // {
+      //   date: '2021.02 ~',
+      //   activity: '개인 블로그 개발 및 운영',
+      //   links: {
+      //     post: '/gatsby-starter-zoomkoding-introduction',
+      //     github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+      //     demo: 'https://www.zoomkoding.com',
+      //   },
+      // },
+    ],
+
+    projects: [
+      // =====        [Project Sample and Structure]        =====
+      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====
+      {
+        title: '',
+        description: '',
+        techStack: ['', ''],
+        thumbnailUrl: '',
+        links: {
+          post: '',
+          github: '',
+          googlePlay: '',
+          appStore: '',
+          demo: '',
+        },
+      },
+      // ========================================================
+      // ========================================================
+      // {
+      //   title: '개발 블로그 테마 개발',
+      //   description:
+      //     '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
+      //   techStack: ['gatsby', 'react'],
+      //   thumbnailUrl: 'blog.png',
+      //   links: {
+      //     post: '/gatsby-starter-zoomkoding-introduction',
+      //     github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+      //     demo: 'https://www.zoomkoding.com',
+      //   },
+      // },
+    ],
+  },
+};
