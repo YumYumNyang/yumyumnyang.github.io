@@ -4,7 +4,7 @@ title: [프로그래머스] 네트워크 풀이
 date: '2022-01-10 21:18:00'
 author: 얌얌냥이
 tags: 알고리즘 프로그래머스 네트워크 dfs bfs 자바스크립트 
-categories: algorithm
+categories: All algorithm
 ---
 
 
