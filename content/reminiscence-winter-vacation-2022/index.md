@@ -1,5 +1,5 @@
 ---
-emoji: 🪥
+emoji: ❄️
 title: "겨울방학 회고"
 date: "2022-03-14 14:41:00"
 author: 얌얌냥이
